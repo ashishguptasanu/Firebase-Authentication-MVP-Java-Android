@@ -1,4 +1,4 @@
-package registration.testing.firebase.com.firebaseregistration.UI;
+package registration.testing.firebase.com.firebaseregistration.Activities;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void initViews() {
+        Toast.makeText(getApplicationContext(), "Internet Required" , Toast.LENGTH_SHORT).show();
         btnLogin = (Button)findViewById(R.id.button_login);
         btnLogin.setOnClickListener(this);
         tvRegister = (TextView)findViewById(R.id.tv_register);

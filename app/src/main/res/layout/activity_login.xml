@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="registration.testing.firebase.com.firebaseregistration.UI.RegistrationActivity">
+    tools:context="registration.testing.firebase.com.firebaseregistration.Activities.RegistrationActivity">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
