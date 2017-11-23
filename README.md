@@ -6,6 +6,7 @@ The MVP pattern allows separate the presentation layer from the logic, so that e
 
 ## About
 In this project, we have done Firebase Authentication using Email & Password, this is a demo project written in Java.
+Add your google-services.json in the /src directory brfore build.
 
 ## License
 ```
